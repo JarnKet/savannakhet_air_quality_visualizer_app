@@ -4,7 +4,7 @@
 	async function getAirQuality({ lat, lon }) {
 		const response = await fetch(
 			// `http://api.airvisual.com/v2/city?city=${city}&state=${state}&country=${country}&key=${KEY}`
-			`http://api.airvisual.com/v2/nearest_city?lat=${lat}&lon=${lon}&key=${KEY}`
+			`https://api.airvisual.com/v2/nearest_city?lat=${lat}&lon=${lon}&key=${KEY}`
 		);
 
 		const {
