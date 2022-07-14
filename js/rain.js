@@ -54,8 +54,6 @@
 				opacity,
 			});
 			rainContainer.appendChild(drop);
-			const i = document.querySelectorAll('i');
-			console.log(i);
 		}
 	}
 
